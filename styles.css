@@ -52,14 +52,14 @@ a:hover, a:active {
 .content {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
-    border-left: 2px solid #FF00A8;
+    border-left: 0px solid #FF00A8;
 }
 
 img {
     border: none !important;
     outline: none !important;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(255, 0, 170, 0.3);
+    border-radius: 0px;
+    box-shadow: 0 0 0px rgba(255, 0, 170, 0.3);
 }
 
 .clearfix {
