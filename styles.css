@@ -1,95 +1,90 @@
 body {
     background-image: url('/dryp-pinksmokeseamless-JPG.jpg');
-    background-color: #FFADFF;
-    color: White;
+    background-color: #0A0A0A; /* Deep black base for dark mode */
+    color: #F8EAFD; /* Soft off-white with a slight pink tint */
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
 }
 
 a {
-    color: #5E005E;
+    color: #FF00A8; /* Neon magenta for links */
     text-decoration: none;
-}
-
-a:link {
-    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:visited {
-    color: #5E005E;
-    text-decoration: none;
+    color: #E50095; /* Slightly darker magenta */
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
+a:hover, a:active {
+    color: #FFD400; /* Bright yellow pop (matches caution stripes) */
     text-decoration: underline;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.8); /* Subtle transparency */
     padding: 20px;
     border-radius: 15px;
-    border: 0px solid #ccc;
+    border: 2px solid #FF00A8; /* Neon pink accent border */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: 0 0 20px rgba(255, 0, 170, 0.4);
 }
 
 .header, .footer, .content, .sidebar {
-    background-color: #fd2785;
+    background-color: rgba(255, 20, 147, 0.1); /* Faint pink glass effect */
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid rgba(255, 20, 147, 0.3);
 }
 
 .sidebar {
     width: 130px;
-    background-color: #f800ae;
-    background-size: cover;
+    background-color: rgba(255, 255, 0, 0.1); /* Subtle yellow tint */
+    border-left: 3px solid #FFD400; /* Matches hazard stripes */
     border-radius: 15px 0 0 15px;
-    background-repeat: no-repeat;
     padding: 10px;
 }
 
 .content {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
+    border-left: 2px solid #FF00A8;
 }
 
 img {
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 170, 0.3);
 }
 
 .clearfix {
     display: flex;
 }
 
-/* Screen Reader Accessibility */
+/* Accessibility and focus */
 a:focus {
-    outline: 2px solid #FF00FF;
+    outline: 2px solid #FFD400;
 }
 
 .skip-to-content {
     position: absolute;
     top: -40px;
     left: 0;
-    background: #FF00FF;
-    color: #ffffff;
+    background: #FFD400;
+    color: #000;
     padding: 8px;
     z-index: 100;
+    border-radius: 5px;
 }
 
 .skip-to-content:focus {
     top: 0;
 }
 
-/* Breakpoints for responsiveness */
-
-/* Small devices (tablets, 768px and up) */
+/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         width: 90%;
@@ -107,12 +102,7 @@ a:focus {
     }
 }
 
-/* Extra small devices (phones, less than 768px) */
 @media (max-width: 576px) {
-    body {
-        background-color: #FFADFF;
-    }
-
     .container {
         width: 100%;
         padding: 10px;
@@ -128,6 +118,3 @@ a:focus {
         flex-direction: column;
     }
 }
-
-
-
