@@ -1,5 +1,5 @@
 document.write('<center>'); 
-document.write('<img src="/tape.png" width="100%" height="auto" alt="">'); 
+document.write('<img src="/tape.png" width="100%" height="25%" alt="">'); 
 document.write('<h1><u><i>Caution: Hot Grill</i></u></h1>'); 
 document.write('<nav>'); 
 document.write('<h2>');
