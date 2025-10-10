@@ -3,7 +3,7 @@ document.write('<img src="/tape.png" width="100%" height="15%" alt="">');
 document.write('<h1><u><i>Caution: Hot Grill</i></u></h1>'); 
 document.write('<nav>'); 
 document.write('<h2>');
-document.write('<a href="https://literalgrill.com/home">Home</a> &#9733; '); 
+document.write('&#9733 <a href="https://literalgrill.com/home">Home</a> &#9733; '); 
 document.write('<a href="/aboutme">About Me</a> &#9733; '); 
 document.write('<a href="/archives.html">Archive</a> &#9733; '); 
 document.write('</h2>'); 
