@@ -109,7 +109,7 @@ document.write('</a>');
 document.write('<a href="http://www.live-evil.org/">');
 document.write('<img src="/liveevil.png" alt="Live Evil">'); 
 document.write('</a>'); 
-document.write('<p><img src="/xtape.png" width="120" height="30" alt=""></p>'); 
+document.write('<p><img src="/tape.png" width="120" height="30" alt=""></p>'); 
 document.write(''); 
 document.write(''); 
 document.write(''); 
