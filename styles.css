@@ -52,7 +52,7 @@ a:hover, a:active {
 .content {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
-    border-left: 2px solid #FF00A8;
+    border-left: 0px solid #FF00A8;
 }
 
 img {
