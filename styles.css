@@ -1,0 +1,133 @@
+body {
+    background-image: url('https://the-grill-out.neocities.org/tiledbg.jpg');
+    background-color: #FFADFF;
+    color: black;
+    font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+}
+
+a {
+    color: #5E005E;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5E005E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header, .footer, .content, .sidebar {
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    width: 130px;
+    background-color: #FEBCFE;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.clearfix {
+    display: flex;
+}
+
+/* Screen Reader Accessibility */
+a:focus {
+    outline: 2px solid #FF00FF;
+}
+
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #FF00FF;
+    color: #ffffff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-to-content:focus {
+    top: 0;
+}
+
+/* Breakpoints for responsiveness */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .clearfix {
+        flex-direction: column;
+    }
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 576px) {
+    body {
+        background-color: #FFADFF;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .clearfix {
+        flex-direction: column;
+    }
+}
+
+
+
