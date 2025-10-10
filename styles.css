@@ -45,7 +45,7 @@ a:hover, a:active {
     width: 130px;
     background-color: rgba(255, 255, 0, 0.1); /* Subtle yellow tint */
     border-left: 3px solid #FFD400; /* Matches hazard stripes */
-    border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 0px;
     padding: 10px;
 }
 
