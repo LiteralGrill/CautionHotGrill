@@ -20,6 +20,18 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
+/* --- Focus: keyboard-friendly only --- */
+:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px dashed #FFFFFF;
+    outline-offset: 3px;
+}
+
 .container {
     width: 1000px;
     margin: 0 auto;
